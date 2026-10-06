@@ -1,0 +1,6 @@
+{
+  "name": "HCCF FUOYE - His Coming Campus Fellowship",
+  "description": "Official website for His Coming Campus Fellowship (HCCF), Federal University Oye-Ekiti (FUOYE). Raising students for Christ, growing in Word, and preparing for His coming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
