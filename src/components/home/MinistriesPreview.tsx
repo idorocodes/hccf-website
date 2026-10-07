@@ -29,7 +29,7 @@ export const MinistriesPreview: React.FC = () => {
             }
           />
 
-          {/* Interactive Ministry Quiz Banner Callout */}
+          {/* Interactive Ministry Quiz Banner Callout
           <div className="mb-12 p-6 sm:p-8 rounded-2xl bg-[#F4EFE6] border border-[#DFD7C9] flex flex-col md:flex-row items-start md:items-center justify-between gap-6 shadow-2xs">
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 rounded-2xl bg-[#141414] text-[#F4D900] flex items-center justify-center shrink-0 shadow-xs">
@@ -56,7 +56,7 @@ export const MinistriesPreview: React.FC = () => {
               <Sparkles className="w-4 h-4 text-[#F4D900]" />
               <span>Take Ministry Quiz (30s)</span>
             </button>
-          </div>
+          </div> */}
 
           {/* Ministries Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

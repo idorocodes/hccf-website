@@ -2,9 +2,9 @@ import { ChurchEvent } from '../types';
 
 export const events: ChurchEvent[] = [
   {
-    id: "event-convocation-2026",
-    slug: "kingdom-convocation-2026",
-    title: "Kingdom Convocation 2026",
+    id: "opening-service-2026",
+    slug: "opening-service-2026",
+    title: "Opening service 2026/2027 session",
     subtitle: "The Stature of Christ • Ephesians 4:13",
     description:
       "Our premier annual campus believers' conference uniting students from all faculties of FUOYE for three days of intense word encounters, deep prophetic worship, deliverance, and spiritual re-firing.",

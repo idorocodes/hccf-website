@@ -16,11 +16,11 @@ export const churchInfo = {
     "A campus fellowship committed to knowing Christ, growing together in God's Word, and preparing for His coming.",
 
   location: {
-    campus: "FUOYE Main Campus (Oye-Ekiti) & Ikole Campus",
-    town: "Oye-Ekiti & Ikole-Ekiti",
+    campus: "FUOYE Main Campus Oye-Ekiti",
+    town: "Oye-Ekiti",
     state: "Ekiti State",
     country: "Nigeria",
-    mainVenue: "[HCCF Fellowship Center / Main Campus, FUOYE]",
+    mainVenue: "Methodist Nursery and primary school, Faalex, Oye Ekiti.",
     directionsNote:
       "Located within accessible walking distance from FUOYE Main Gate, Oye-Ekiti campus.",
   },
@@ -38,18 +38,6 @@ export const churchInfo = {
       contactPerson: "Fellowship General Secretary",
       phone: "+234 (0) 800 000 0001",
     },
-    {
-      id: "ikole",
-      name: "Ikole Campus",
-      town: "Ikole-Ekiti",
-      venue: "Engineering Lecture Hall 2 / HCCF Ikole Fellowship Center",
-      landmark: "Opposite Faculty of Engineering New Complex, Ikole Campus",
-      sundayService: "08:30 AM – 11:15 AM",
-      midweekService: "Wednesdays 05:30 PM – 07:00 PM",
-      faculties: "Faculty of Engineering & Faculty of Agriculture",
-      contactPerson: "Ikole Campus Fellowship Coordinator",
-      phone: "+234 (0) 800 000 0002",
-    },
   ],
 
   scriptureOfTheWeek: {
@@ -64,33 +52,33 @@ export const churchInfo = {
     {
       name: "Sunday Fellowship",
       day: "Sundays",
-      time: "[08:30 AM – 11:30 AM]",
+      time: "[08:00 AM – 11:00 AM]",
       venue: "[HCCF Auditorium / Main Campus, FUOYE]",
       description: "Atmosphere of passionate worship, revelatory teaching of the Word, and warm fellowship.",
       badge: "Main Service"
     },
     {
-      name: "Midweek Word & Prayer Charge",
+      name: "Prayer Meeting",
       day: "Wednesdays",
-      time: "[05:30 PM – 07:15 PM]",
+      time: "[05:30 PM – 06:30 PM]",
       venue: "[Lecture Theatre 1 / FUOYE Main Campus]",
-      description: "Deep dive into scripture doctrine, believers' authority, and targeted campus intercession.",
+      description: "targeted campus and personal intercession",
       badge: "Midweek"
     },
     {
-      name: "Campus Evangelism & Outreaches",
-      day: "Saturdays",
-      time: "[04:00 PM – 06:00 PM]",
+      name: "Bible Study",
+      day: "Fridays",
+      time: "[05:30 PM – 06:30 PM]",
       venue: "[Fellowship Secretariat & Hostels Outreach]",
-      description: "Taking the Gospel of Christ to hostels, lecture halls, and student communities.",
-      badge: "Outreach"
+      description: "Deep dive into scripture doctrine and believers' authority.",
+      badge: "Midweek"
     }
   ],
 
   contact: {
-    email: "contact@hccffuoye.org",
-    phone: "[+234 (0) 800 000 0000 / Official Line]",
-    supportPhone: "[+234 (0) 812 000 0000]",
+    email: "hiscomingcampusfellowshipfuoyechapter@gmail.com",
+    phone: "[+234 (0) 816 078 7529/ Official Line]",
+    supportPhone: "[+234 (0) 816 078 7529]",
     address: "His Coming Campus Fellowship Secretariat, Federal University Oye-Ekiti (FUOYE), Ekiti State, Nigeria",
   },
 

@@ -81,14 +81,18 @@ export const Hero: React.FC = () => {
         <div className="mt-14 sm:mt-18 pt-6 border-t border-[#E5DFD3] w-full max-w-3xl flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-xs sm:text-sm text-neutral-700">
           <div className="flex items-center gap-2">
             <Calendar className="w-4 h-4 text-black" />
-            <span>Sundays: <strong className="text-black font-bold">{churchInfo.serviceTimes[0].time}</strong></span>
+            <span>Sundays: Sunday Service <strong className="text-black font-bold">{churchInfo.serviceTimes[0].time}</strong></span>
           </div>
           <span className="hidden sm:inline text-neutral-400">•</span>
           <div className="flex items-center gap-2">
             <Calendar className="w-4 h-4 text-black" />
-            <span>Wednesdays: <strong className="text-black font-bold">{churchInfo.serviceTimes[1].time}</strong></span>
+            <span>Wednesdays: Prayer Meeting <strong className="text-black font-bold">{churchInfo.serviceTimes[1].time}</strong></span>
           </div>
           <span className="hidden sm:inline text-neutral-400">•</span>
+          <div className="flex items-center gap-2">
+            <Calendar className="w-4 h-4 text-black" />
+            <span>Fridays: Bible Study<strong className="text-black font-bold">{churchInfo.serviceTimes[1].time}</strong></span>
+          </div> 
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-black" />
             <span>Venue: <strong className="text-black font-bold">{churchInfo.location.mainVenue}</strong></span>

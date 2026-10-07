@@ -3,8 +3,7 @@ import { SEO } from '../components/common/SEO';
 import { Hero } from '../components/home/Hero';
 import { Welcome } from '../components/home/Welcome';
 import { ScriptureOfWeek } from '../components/home/ScriptureOfWeek';
-import { ServiceTimes } from '../components/home/ServiceTimes';
-import { FeaturedEvent } from '../components/home/FeaturedEvent';
+// import { FeaturedEvent } from '../components/home/FeaturedEvent';
 import { MinistriesPreview } from '../components/home/MinistriesPreview';
 import { SermonsPreview } from '../components/home/SermonsPreview';
 import { TestimoniesSection } from '../components/home/TestimoniesSection';
@@ -22,8 +21,8 @@ export const HomePage: React.FC = () => {
         <Hero />
         <Welcome />
         <ScriptureOfWeek />
-        <ServiceTimes />
-        <FeaturedEvent />
+        
+        {/* <FeaturedEvent /> */}
         <MinistriesPreview />
         <SermonsPreview />
         <TestimoniesSection />
